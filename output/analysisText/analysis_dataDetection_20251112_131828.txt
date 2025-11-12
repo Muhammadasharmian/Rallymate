@@ -1,0 +1,238 @@
+======================================================================
+         PADDLECOACH - TABLE TENNIS BIOMECHANICAL ANALYSIS
+======================================================================
+
+Video: input/dataDetection.mp4
+Analysis Date: 2025-11-12 13:18:28
+Processing FPS: 30
+Total Frames Analyzed: 4861
+Total Detections: 9537
+
+Detected Players: Player_1, Player_2
+Number of Players: 2
+
+======================================================================
+                           SHOT DETECTION
+======================================================================
+
+Player_1:
+  Total Shots Detected: 108
+
+  Forehand Shots: 53
+  Backhand Shots: 55
+
+  Shot Details (first 10):
+    1. Forehand   | Frames    13-   14 | Duration: 0.03s
+    2. Backhand   | Frames    27-   31 | Duration: 0.13s
+    3. Forehand   | Frames    37-   38 | Duration: 0.03s
+    4. Forehand   | Frames    41-   43 | Duration: 0.07s
+    5. Backhand   | Frames    57-   62 | Duration: 0.17s
+    6. Forehand   | Frames    71-   87 | Duration: 0.53s
+    7. Backhand   | Frames    88-  111 | Duration: 0.77s
+    8. Backhand   | Frames   113-  128 | Duration: 0.50s
+    9. Backhand   | Frames   135-  136 | Duration: 0.03s
+    10. Forehand   | Frames   143-  146 | Duration: 0.10s
+    ... and 98 more shots
+
+Player_2:
+  Total Shots Detected: 132
+
+  Forehand Shots: 94
+  Backhand Shots: 38
+
+  Shot Details (first 10):
+    1. Backhand   | Frames     6-    7 | Duration: 0.03s
+    2. Backhand   | Frames    11-   14 | Duration: 0.10s
+    3. Backhand   | Frames    21-   23 | Duration: 0.07s
+    4. Backhand   | Frames    24-   28 | Duration: 0.13s
+    5. Backhand   | Frames    34-   36 | Duration: 0.07s
+    6. Backhand   | Frames    39-   40 | Duration: 0.03s
+    7. Backhand   | Frames    81-   83 | Duration: 0.07s
+    8. Backhand   | Frames    84-   87 | Duration: 0.10s
+    9. Backhand   | Frames    88-   89 | Duration: 0.03s
+    10. Backhand   | Frames    92-   94 | Duration: 0.07s
+    ... and 122 more shots
+
+======================================================================
+                      BIOMECHANICAL ANALYSIS
+======================================================================
+
+Player_1 - Detailed Stroke Metrics:
+----------------------------------------------------------------------
+
+  Shot 1: Forehand (Frames 13-14)
+    Racket Metrics:
+      Max Velocity:        54.30 px/s
+      Avg Velocity:        27.15 px/s
+    Joint Angles:
+      Min Hip/Knee:        31.54° (lower = better loading)
+      Avg Hip/Knee:        31.67°
+      Min Elbow:           89.35°
+      Avg Elbow:           92.13°
+      Avg Torso:            8.76°
+    Center of Gravity:
+      Horizontal Movement:    30.66 px
+      Vertical Movement:       1.19 px
+
+  Shot 2: Backhand (Frames 27-31)
+    Racket Metrics:
+      Max Velocity:      1281.12 px/s
+      Avg Velocity:       779.44 px/s
+    Joint Angles:
+      Min Hip/Knee:         5.13° (lower = better loading)
+      Avg Hip/Knee:        21.24°
+      Min Elbow:           52.07°
+      Avg Elbow:           79.84°
+      Avg Torso:           29.18°
+    Center of Gravity:
+      Horizontal Movement:    31.66 px
+      Vertical Movement:      15.98 px
+
+  Shot 3: Forehand (Frames 37-38)
+    Racket Metrics:
+      Max Velocity:       187.13 px/s
+      Avg Velocity:        93.57 px/s
+    Joint Angles:
+      Min Hip/Knee:        12.17° (lower = better loading)
+      Avg Hip/Knee:        13.19°
+      Min Elbow:            9.40°
+      Avg Elbow:            9.89°
+      Avg Torso:           65.18°
+    Center of Gravity:
+      Horizontal Movement:     1.87 px
+      Vertical Movement:       2.08 px
+
+  Shot 4: Forehand (Frames 41-43)
+    Racket Metrics:
+      Max Velocity:      1498.83 px/s
+      Avg Velocity:       561.02 px/s
+    Joint Angles:
+      Min Hip/Knee:         1.72° (lower = better loading)
+      Avg Hip/Knee:         7.09°
+      Min Elbow:           15.13°
+      Avg Elbow:           30.56°
+      Avg Torso:           65.46°
+    Center of Gravity:
+      Horizontal Movement:    18.57 px
+      Vertical Movement:      11.97 px
+
+  Shot 5: Backhand (Frames 57-62)
+    Racket Metrics:
+      Max Velocity:      2163.83 px/s
+      Avg Velocity:      1011.74 px/s
+    Joint Angles:
+      Min Hip/Knee:         1.43° (lower = better loading)
+      Avg Hip/Knee:        40.12°
+      Min Elbow:           31.40°
+      Avg Elbow:           39.42°
+      Avg Torso:           21.40°
+    Center of Gravity:
+      Horizontal Movement:    32.02 px
+      Vertical Movement:      59.81 px
+
+Player_2 - Detailed Stroke Metrics:
+----------------------------------------------------------------------
+
+  Shot 1: Backhand (Frames 6-7)
+    Racket Metrics:
+      Max Velocity:       380.69 px/s
+      Avg Velocity:       190.35 px/s
+    Joint Angles:
+      Min Hip/Knee:       159.43° (lower = better loading)
+      Avg Hip/Knee:       159.79°
+      Min Elbow:          137.57°
+      Avg Elbow:          138.59°
+      Avg Torso:          156.50°
+    Center of Gravity:
+      Horizontal Movement:     4.70 px
+      Vertical Movement:       0.95 px
+
+  Shot 2: Backhand (Frames 11-14)
+    Racket Metrics:
+      Max Velocity:      1053.36 px/s
+      Avg Velocity:       457.47 px/s
+    Joint Angles:
+      Min Hip/Knee:       167.15° (lower = better loading)
+      Avg Hip/Knee:       168.18°
+      Min Elbow:          144.56°
+      Avg Elbow:          145.05°
+      Avg Torso:          163.81°
+    Center of Gravity:
+      Horizontal Movement:     1.17 px
+      Vertical Movement:       3.46 px
+
+  Shot 3: Backhand (Frames 21-23)
+    Racket Metrics:
+      Max Velocity:      1764.16 px/s
+      Avg Velocity:       667.49 px/s
+    Joint Angles:
+      Min Hip/Knee:       172.20° (lower = better loading)
+      Avg Hip/Knee:       172.52°
+      Min Elbow:          137.87°
+      Avg Elbow:          138.92°
+      Avg Torso:          169.44°
+    Center of Gravity:
+      Horizontal Movement:     5.34 px
+      Vertical Movement:       3.44 px
+
+  Shot 4: Backhand (Frames 24-28)
+    Racket Metrics:
+      Max Velocity:      2534.06 px/s
+      Avg Velocity:       864.87 px/s
+    Joint Angles:
+      Min Hip/Knee:       172.63° (lower = better loading)
+      Avg Hip/Knee:       174.25°
+      Min Elbow:          137.61°
+      Avg Elbow:          139.02°
+      Avg Torso:          171.85°
+    Center of Gravity:
+      Horizontal Movement:     1.48 px
+      Vertical Movement:       5.62 px
+
+  Shot 5: Backhand (Frames 34-36)
+    Racket Metrics:
+      Max Velocity:      1133.41 px/s
+      Avg Velocity:       430.06 px/s
+    Joint Angles:
+      Min Hip/Knee:       178.99° (lower = better loading)
+      Avg Hip/Knee:       179.21°
+      Min Elbow:          140.59°
+      Avg Elbow:          142.50°
+      Avg Torso:          176.46°
+    Center of Gravity:
+      Horizontal Movement:     0.77 px
+      Vertical Movement:       5.36 px
+
+======================================================================
+                        PLAYER COMPARISON
+======================================================================
+
+Shot Count:
+  Player_1: 108 shots
+  Player_2: 132 shots
+
+Average Performance Metrics:
+
+Player_1:
+  Avg Max Racket Velocity:  1406.88 px/s
+  Avg Min Hip/Knee Angle:    142.68°
+  Avg Min Elbow Angle:       115.28°
+  Avg CoG Movement:           14.90 px
+
+Player_2:
+  Avg Max Racket Velocity:  1439.58 px/s
+  Avg Min Hip/Knee Angle:    165.01°
+  Avg Min Elbow Angle:        90.78°
+  Avg CoG Movement:            9.53 px
+
+----------------------------------------------------------------------
+Performance Edge:
+
+  Player_2 has 2.3% faster average racket speed
+
+======================================================================
+                        ANALYSIS COMPLETE
+======================================================================
+
+Report generated by PaddleCoach Vision System v1.0
+Output file: output/analysisText/analysis_dataDetection_20251112_131828.txt
