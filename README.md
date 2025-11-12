@@ -60,8 +60,9 @@ Rallymate/
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Ashwani564/DataThonProject.git
-cd DataThonProject
+https://github.com/Muhammadasharmian/Rallymate.git
+
+cd Rallymate
 
 # Install dependencies
 pip install -r requirements.txt
